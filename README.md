@@ -1,5 +1,6 @@
 # k9slogdump
 This is a small plugin for the [k9s](https://github.com/derailed/k9s) tool which allows you to dump entire log files from a pod to your local machine.
+Thanks for [@a-jackson](https://github.com/a-jackson) for his help with getting this working. 
 
 ## Setup
 To setup this plugin you'll need to place the two provided files in the correct places and update their contents slightly.
