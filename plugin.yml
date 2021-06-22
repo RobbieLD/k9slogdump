@@ -1,0 +1,17 @@
+plugin:
+  dlog:
+    # What ever shortcut you'd like to use
+    shortCut: Ctrl-J
+    description: Pod logs
+    scopes:
+    - po
+    # Path to your shell of choice
+    command: "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe"
+    background: true
+    args:
+    - -File
+    # path where you have placed the log grabber script
+    - C:\Users\<USERNAME>\.dotnet\tools\log-grab.ps1
+    - $NAME
+    - $NAMESPACE
+    - $CONTEXT
